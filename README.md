@@ -21,6 +21,8 @@ A Streamlit web app provides a business-friendly forecasting interface
 
 This project demonstrates a complete Data Science lifecycle: preprocessing → feature engineering → model training → evaluation → deployment.
 
+---
+
 ✨ Features
 
 Time-series demand forecasting model
@@ -36,6 +38,8 @@ Real-time forecasting via Streamlit UI
 Visual trend + forecast graph for business interpretation
 
 Production-style project structure (no raw data stored in repo)
+
+---
 
 🛠 Tech Stack
 
@@ -53,6 +57,8 @@ Streamlit
 
 Joblib (for saving trained model)
 
+---
+
 📂 Project Structure
 Walmart-Forecasting/
 │
@@ -63,6 +69,8 @@ Walmart-Forecasting/
 ├── requirements.txt           # Project dependencies
 ├── .gitignore                 # Prevents dataset upload
 ├── README.md                  # Project documentation
+
+---
 
 ▶️ How to Run the Project
 1️⃣ Clone the repository
@@ -78,12 +86,16 @@ streamlit run dashboard.py
 
 The app will open automatically in your browser.
 
+---
+
 📥 Dataset
 
 The dataset is not included due to GitHub’s 100MB file limit.
 
 Download the dataset from Kaggle (Walmart M5 Forecasting dataset)
 and place the CSV files inside a local /data folder before running the notebook.
+
+---
 
 🧪 Example Workflow
 
@@ -102,6 +114,8 @@ Predicted Demand: 436 Units
 
 The dashboard also visualizes the recent sales trend along with the forecasted value.
 
+---
+
 📌 Use Cases
 
 Retail inventory planning
@@ -113,6 +127,8 @@ Sales trend analysis
 Business decision support dashboards
 
 Time-series forecasting learning project
+
+---
 
 📈 Future Improvements
 
@@ -126,13 +142,18 @@ Cloud deployment for real-time usage
 
 Advanced seasonal decomposition
 
+---
+
 👤 Author
 
 Soham Joshi
 Aspiring Data Scientist focused on solving real-world business problems using Machine Learning.
+
+---
 
 ⭐ Acknowledgements
 
 Inspired by real-world retail forecasting systems used by companies like Walmart, Amazon, and Target to optimize supply chain and inventory decisions.
 
 If you like this project, don’t forget to ⭐ the repository!
+
